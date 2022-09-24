@@ -12,4 +12,10 @@ CREATE TABLE `history` (
   PRIMARY KEY (`id`,`time`,`name`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
+CREATE TABLE server_list(
+	id int,
+	name VARCHAR(50),
+    primary key(id,name)
+);
+
 
