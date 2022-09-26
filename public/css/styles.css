@@ -4559,8 +4559,7 @@ textarea.form-control-lg {
 }
 
 .card-body {
-  flex: 1 1 auto;
-  padding: 1rem 1rem;
+  padding: 0.8rem 0.8rem;
 }
 
 .card-title {
@@ -11706,14 +11705,53 @@ body {
 
 #block_table{
   align-items: center;
-  margin-left: 15px;
+  margin:auto;
   font-family: var(--bs-body-font-family);
-  font-size: 1vw;
   font-weight: bold;
   border-top:2px solid #EFEFEF;
   border-radius: 20px;
   margin-bottom: 20px;
 }
+@media (max-width: 1200px) {
+  #block_table, #block_text {
+    font-size: 1vw;
+  },
+   #block_text_title {
+    font-size: 1.2vw;
+  },
+
+  #block_text_title{
+    font-size: 2.5vw;
+  }
+}
+
+@media (max-width: 768px) {
+  #block_table,#block_text {
+    font-size: 2vw;
+  },
+   #block_text_title {
+    font-size: 2.4vw;
+  },
+
+  #block_title{
+    font-size: 4vw;
+  }
+}
+
+@media (max-width: 576px) {
+  #block_table ,#block_text{
+    font-size: 4vw;
+  },
+   #block_text_title {
+    font-size: 6vw;
+  },
+
+  #block_title{
+    font-size: 8vw;
+    margin-bottom: :8vw;
+  }
+}
+
 #block_tr, #block_td{
   padding:10px;
   border-bottom:2px solid #EFEFEF;
@@ -11742,7 +11780,7 @@ body {
     left: 15%;
     top: 15%;
     display: block;
-    content: attr(data-percent)'%';
+    content: attr(data-percent);
     transform: skew(-0.03deg);
     margin: auto;
     font-size: 1.1vw;

@@ -52,6 +52,10 @@ app.get('/server_history', function(request, response){
 })
 
 
+app.post('/create_state', function(request, response){
+  server.create_state(request, response);
+})
+
 
 app.listen(3000, function(){
   console.log('conneted 3000 port!!');

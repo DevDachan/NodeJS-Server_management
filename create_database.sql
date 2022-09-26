@@ -6,16 +6,13 @@ CREATE TABLE `history` (
   `id` int NOT NULL,
   `time` datetime NOT NULL,
   `cpu_usage` varchar(50) DEFAULT NULL,
-  `name` varchar(50) NOT NULL,
   `user_num` varchar(50) DEFAULT NULL,
-  `state` varchar(50) DEFAULT NULL,
-  PRIMARY KEY (`id`,`time`,`name`)
+  PRIMARY KEY (`id`,`time`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
-CREATE TABLE server_list(
-	id int,
-	name VARCHAR(50),
-    primary key(id,name)
-);
-
-
+CREATE TABLE `server_list` (
+  `id` int NOT NULL,
+  `name` varchar(50) NOT NULL,
+  `state` varchar(50) DEFAULT NULL,
+  PRIMARY KEY (`id`,`name`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
