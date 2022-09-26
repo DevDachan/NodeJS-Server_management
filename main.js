@@ -28,13 +28,6 @@ app.get('/', function(request, response){
 });
 
 
-app.post('/admin_login', function(request, response){
-  server.login(request, response);
-})
-app.get('/admin_login', function(request, response){
-  server.login(request, response);
-})
-
 
 app.post('/server_register', function(request, response){
   server.register(request, response);
