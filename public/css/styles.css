@@ -1588,7 +1588,7 @@ progress {
 
   .col-xl-3 {
     flex: 0 0 auto;
-    width: 20%;
+    width: 25%;
   }
 
   .col-xl-4 {
@@ -11713,23 +11713,22 @@ body {
   margin-bottom: 20px;
 }
 @media (max-width: 1200px) {
-  #block_table, #block_text {
+  #block_table {
     font-size: 1vw;
   },
-   #block_text_title {
-    font-size: 1.2vw;
+  #block_text{
+    font-size: 2vw;
   },
-
-  #block_text_title{
+  #block_title{
     font-size: 2.5vw;
   }
 }
 
 @media (max-width: 768px) {
-  #block_table,#block_text {
+  #block_table {
     font-size: 2vw;
   },
-   #block_text_title {
+   #block_text {
     font-size: 2.4vw;
   },
 
@@ -11739,10 +11738,10 @@ body {
 }
 
 @media (max-width: 576px) {
-  #block_table ,#block_text{
+  #block_table{
     font-size: 4vw;
   },
-   #block_text_title {
+   #block_text {
     font-size: 6vw;
   },
 
@@ -11773,8 +11772,39 @@ body {
 .donut::before {
     color: #fff;
     width: 70%;
+    font-weight: bold;
     padding: calc(35% - .64vw) 0;
     background: #264057;
+    border-radius: 50%;
+    position: absolute;
+    left: 15%;
+    top: 15%;
+    display: block;
+    content: attr(data-percent);
+    transform: skew(-0.03deg);
+    margin: auto;
+    font-size: 1.1vw;
+    font-size: 2vw;
+    padding: calc(35% - 1.3vw) 0;
+}
+
+.donut_black {
+    width: 12vw;
+    padding-bottom:  12vw;
+    margin: 0 auto;
+    border-radius: 50%;
+    position: relative;
+    text-align: center;
+    transition: background .3s ease-in-out;
+    background: conic-gradient(#3F8BC9 0% 72%, #F2F2F2 72% 100%);
+}
+
+.donut_black::before {
+    color: #5a5a5a;
+    font-weight: bold;
+    width: 70%;
+    padding: calc(35% - .64vw) 0;
+    background: #dcdcdc;
     border-radius: 50%;
     position: absolute;
     left: 15%;
