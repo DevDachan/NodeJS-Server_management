@@ -11800,7 +11800,7 @@ body {
 }
 
 .donut_black::before {
-    color: #5a5a5a;
+    color: #a18282;
     font-weight: bold;
     width: 70%;
     padding: calc(35% - .64vw) 0;
