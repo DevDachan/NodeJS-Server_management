@@ -49,6 +49,15 @@ app.post('/create_state', function(request, response){
   server.create_state(request, response);
 })
 
+app.post('/delete', function(request, response){
+  server.delete(request, response);
+})
+
+app.get('/delete_state', function(request, response){
+  server.delete_state(request, response);
+})
+
+
 
 app.listen(3000, function(){
   console.log('conneted 3000 port!!');

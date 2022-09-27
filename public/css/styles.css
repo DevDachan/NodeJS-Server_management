@@ -349,7 +349,6 @@ optgroup,
 textarea {
   margin: 0;
   font-family: inherit;
-  font-size: inherit;
   line-height: inherit;
 }
 
@@ -11716,19 +11715,20 @@ body {
   #block_table {
     font-size: 1vw;
   },
-  #block_text{
+  #block_text,#delete_bt{
     font-size: 2vw;
   },
   #block_title{
     font-size: 2.5vw;
-  }
+  },
+
 }
 
 @media (max-width: 768px) {
   #block_table {
     font-size: 2vw;
   },
-   #block_text {
+   #block_text ,#delete_bt{
     font-size: 2.4vw;
   },
 
@@ -11816,4 +11816,14 @@ body {
     font-size: 1.1vw;
     font-size: 2vw;
     padding: calc(35% - 1.3vw) 0;
+}
+
+#delete_bt{
+  background:#FF4646;
+  border:0px;
+  border-radius: 10px;
+  margin: 5px;
+  font-weight: bold;
+  color: white;
+  height:30px;
 }
