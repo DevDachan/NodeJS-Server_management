@@ -8,7 +8,7 @@ mysql
 pm2 
 express
 
-**server**
+###server
 sudo apt-get install npm
 npm install pm2 -g
 npm install mysql -S
@@ -22,8 +22,8 @@ Pip install pymysql
 Pip install pycryptodomex
 Sudo apt-get powertop
 
-**client**
-powertop 
+###client
+apt-get install powertop 
 
 
 ## 실행 방법 및 종료 방법
