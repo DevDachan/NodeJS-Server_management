@@ -65,10 +65,10 @@ Main
 - 생성이 완료된 Server는 위와 같이 생성이 되고 아직 Client Program이 한번도 Data를 보낸적이 없다면 Empty를 나타내게 된다.
 만약 Server가 Data를 보낸 History가 존재하지만 상태가 Off되어 있을 경우에는 아래와 같이 빨간 배경에 OFF를 나타낸다.
 
-<image src="https://user-images.githubusercontent.com/111109411/193002851-e846483c-5826-4f63-af70-6fc8cf2102f1.png"  width="600" height="400"/>
+<image src="https://user-images.githubusercontent.com/111109411/193002851-e846483c-5826-4f63-af70-6fc8cf2102f1.png"  width="600" height="300"/>
 
 
-<image src="https://user-images.githubusercontent.com/111109411/193003444-04dc01ea-4917-4b7c-800a-d234267f111f.png"  width="600" height="400"/>
+<image src="https://user-images.githubusercontent.com/111109411/193003444-04dc01ea-4917-4b7c-800a-d234267f111f.png"  width="600" height="300"/>
 - Main 화면 하단에는 각각의 Server의 가장 최신 정보들을 확인 할 수 있고 어떤 Server가 존재하는지 List 형식으로 확인이 가능하다.
 그리고 필요가 없어진 Server의 경우에는 Delete 버튼을 통해 DB에 저장된 Key 값을 삭제 할 수 있다.
 
