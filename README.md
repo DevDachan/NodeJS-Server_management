@@ -124,6 +124,9 @@ History
 
 
 ## 3. DB
+
+- DB는 총 2가지의 Table로 구성이 되어 있다. DB를 사용하는 언어는 MYSQL을 사용했고 각각의 Attribute는 아래와 같다
+
 1) server_list => 등록한 서버의 리스트를 저장하는 table
 
 <image src="https://user-images.githubusercontent.com/70511859/193019485-aac18a96-6157-419b-85f2-3a26c47d8a2f.png"  width="500" height="200"/>
