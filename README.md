@@ -120,7 +120,11 @@ History
 
 ## 3. DB
 1) server_list
+
 ![image](https://user-images.githubusercontent.com/70511859/193019485-aac18a96-6157-419b-85f2-3a26c47d8a2f.png)
 
 
 2) history
+
+![image](https://user-images.githubusercontent.com/70511859/193019625-bbfe1678-6888-4c99-a869-43bd2e021afb.png)
+
