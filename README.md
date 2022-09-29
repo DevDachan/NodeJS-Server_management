@@ -124,7 +124,7 @@ History
 ![image](https://user-images.githubusercontent.com/70511859/193019485-aac18a96-6157-419b-85f2-3a26c47d8a2f.png)
 
 
-2) history => 서버마다 전송되는 history
+2) history => history를 저장하는 table
 
 ![image](https://user-images.githubusercontent.com/70511859/193019625-bbfe1678-6888-4c99-a869-43bd2e021afb.png)
 
