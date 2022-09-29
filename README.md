@@ -111,6 +111,7 @@ Key value는 Random하게 생성이되고 모두 고유한 값을 가지게 된�
 
 <img width="700" alt="KakaoTalk_20220929_201613304_02" src="https://user-images.githubusercontent.com/111109411/193045240-45ff0f25-bf10-47cc-a525-d4ebfe822307.png">
 
+```
 @app.route('/', methods=['GET', 'POST'])
 def index():
     if request.method == 'GET':
@@ -138,7 +139,7 @@ def index():
         print('Done db insert')
 
     return 'Success!'
-
+```
 - 보이는 것과 같이 Server측에서 실행되는 Python Script의 경우에는 특정 Port로 들어온 Request (Client의 History)를 받고 해당 Data를 Parsing해서 DB에 저장시키는 역할을 한다.
 
 
