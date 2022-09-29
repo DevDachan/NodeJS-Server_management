@@ -7,7 +7,7 @@
 ## 1. Server
 1) Web Service
 - Web Service는 기본적으로 NodeJS 프레임워크를 통해 생성했다.
-### Main
+<Main>
 ![image](https://user-images.githubusercontent.com/111109411/193001568-3662069f-1dca-42a6-8eaa-29cca8506223.png)
 
 * Main화면에서는 기본적으로 각각의 Server의 Data를 Block형식으로 나타내주고 현재 CPU사용량을 Circle Progress bar를 통해 나타냈다.
