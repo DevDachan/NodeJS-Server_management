@@ -147,7 +147,24 @@ def index():
 1) Python script
 [ Send Data about Client Server ]
 
+- 컴퓨터의 정보를 얻기 위해 파이썬으로 linux 명령어를 실행시킨 다음 출력되는 내용을 Parsing을 한 뒤,
+  json 형태로 servmon.cafe24.com 5000번 flask 포트로 전송한다.
+- 위 동작은 8초마다 실행한다.
 
+- <img width="614" alt="스크린샷 2022-09-29 오후 11 27 16" src="https://user-images.githubusercontent.com/105630981/193058642-d39b2374-f588-4a3f-9f7d-e9be1d0ec5b6.png">
+
+
+2) 작동 방식
+
+- 웹 서버에서 발급 받은 키 값을 입력해야한다.
+- <img width="1436" alt="KakaoTalk_Photo_2022-09-29-23-18-40" src="https://user-images.githubusercontent.com/105630981/193057921-f5ce9adc-fbe4-4da0-b1b2-b0b8704e838a.png">
+
+- 없는 키 값일 경우 에러가 난다.
+
+- <img width="643" alt="스크린샷 2022-09-29 오후 8 54 43" src="https://user-images.githubusercontent.com/105630981/193058271-7406a3d8-24ac-4537-99de-7a35b9c874c4.png">
+
+- 다음번에 다시 실행했을 때는 자동으로 키 값을 불러온다.
+- <img width="1435" alt="KakaoTalk_Photo_2022-09-29-23-18-49" src="https://user-images.githubusercontent.com/105630981/193057952-b74f796f-79a2-44f2-91c3-f65adbebbb54.png">
 
 
 
