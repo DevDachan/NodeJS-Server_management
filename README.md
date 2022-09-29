@@ -54,8 +54,7 @@ nohup python3 -u clientCom.py &
 1) Web Service
 - Web Service는 기본적으로 NodeJS 프레임워크를 통해 생성했다.
 
-Main
------
+### 1-1. Main
 <image src="https://user-images.githubusercontent.com/111109411/193001568-3662069f-1dca-42a6-8eaa-29cca8506223.png"  width="600" height="400"/>
 
 * Main화면에서는 기본적으로 각각의 Server의 Data를 Block형식으로 나타내주고 현재 CPU사용량을 Circle Progress bar를 통해 나타냈다.
@@ -76,8 +75,8 @@ Main
 
 
 
-Add Server
-----------
+### 1-2. Add Server
+
 <image src="https://user-images.githubusercontent.com/111109411/193002161-813cf3b9-23e7-4b12-973f-6c28611bc2c6.png"  width="600" height="400"/>
 
 - 각각의 Server는 특정 Key value를 부여받게 되며 해당 Key value를 통해서 Client program이 Server Program에게 Data를 보내게 된다.
@@ -85,8 +84,8 @@ Key value는 Random하게 생성이되고 모두 고유한 값을 가지게 된�
 - Server의 이름은 자유롭게 지정이 가능하다.
 
 
-History
--------
+### 1-3. History
+
 - History Page는 총 3가지로 나눠진다.
 
 1) CPU Usage
@@ -136,3 +135,6 @@ History
 <image src="https://user-images.githubusercontent.com/70511859/193019625-bbfe1678-6888-4c99-a869-43bd2e021afb.png"  width="500" height="200"/>
 
 
+
+# Template
+https://startbootstrap.com/template/sb-admin
