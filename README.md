@@ -3,27 +3,27 @@
 - 여러개의 Server가 있다고 가정 했을 때 해당 Server들의 상태를 한번에 확인하고 관리할 수 있는 Web Service이다. 
 
 필요한 패키지
-npm
-mysql
-pm2 
-express
+- npm
+- mysql
+- pm2 
+- express
 
 ### server
-sudo apt-get install npm
-npm install pm2 -g
-npm install mysql -S
-npm install 
-apt-get install mysql-server
+- sudo apt-get install npm
+- npm install pm2 -g
+- npm install mysql -S
+- npm install 
+- apt-get install mysql-server
 
-Sudo apt-get install python3-pip
-Pip install flask
-Pip install shedule
-Pip install pymysql
-Pip install pycryptodomex
-Sudo apt-get powertop
+- sudo apt-get install python3-pip
+- pip install flask
+- pip install shedule
+- pip install pymysql
+- pip install pycryptodomex
+- sudo apt-get powertop
 
 ### client
-apt-get install powertop 
+- apt-get install powertop 
 
 
 ## 실행 방법 및 종료 방법
