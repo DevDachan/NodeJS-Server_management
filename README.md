@@ -107,6 +107,9 @@ History
 
 
 2) Python script
+[Client Data Insert to DB]
+- Web Server측에 각각의 Client Data들을 Insert하기 위해서 서버에서는 특정 Port를 사용해서 Data를 전송받도록 실행을 시켜 놓아야 한다. 이때 Data를 받기 위해서 Python web framework인 Flask를 사용했다. 
+
 
 
 
@@ -114,6 +117,8 @@ History
 
 ## 2. Client
 1) Python script
+[Send Data about Client Server]
+
 
 
 
