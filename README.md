@@ -126,10 +126,10 @@ History
 ## 3. DB
 1) server_list => 등록한 서버의 리스트를 저장하는 table
 
-![image](https://user-images.githubusercontent.com/70511859/193019485-aac18a96-6157-419b-85f2-3a26c47d8a2f.png)
+<image src="https://user-images.githubusercontent.com/70511859/193019485-aac18a96-6157-419b-85f2-3a26c47d8a2f.png"  width="600" height="400"/>
 
 
 2) history => history를 저장하는 table
+<image src="https://user-images.githubusercontent.com/70511859/193019625-bbfe1678-6888-4c99-a869-43bd2e021afb.png"  width="600" height="400"/>
 
-![image](https://user-images.githubusercontent.com/70511859/193019625-bbfe1678-6888-4c99-a869-43bd2e021afb.png)
 
