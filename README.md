@@ -28,7 +28,8 @@ Main
 
 
 
-### Add Server
+Add Server
+----------
 ![image](https://user-images.githubusercontent.com/111109411/193002161-813cf3b9-23e7-4b12-973f-6c28611bc2c6.png)
 
 - 각각의 Server는 특정 Key value를 부여받게 되며 해당 Key value를 통해서 Client program이 Server Program에게 Data를 보내게 된다.
@@ -36,7 +37,8 @@ Key value는 Random하게 생성이되고 모두 고유한 값을 가지게 된�
 - Server의 이름은 자유롭게 지정이 가능하다.
 
 
-### History
+History
+-------
 - History Page는 총 3가지로 나눠진다.
 
 1) CPU Usage
@@ -59,11 +61,16 @@ Key value는 Random하게 생성이되고 모두 고유한 값을 가지게 된�
 
 
 
-
 2) Python script
+
 
 
 
 
 ## 2. Client
 1) Python script
+
+
+
+
+
