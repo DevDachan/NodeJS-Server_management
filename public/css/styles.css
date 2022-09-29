@@ -4139,7 +4139,7 @@ textarea.form-control-lg {
 @media (min-width: 576px) {
   .navbar-expand-sm {
     flex-wrap: nowrap;
-    justify-content: flex-start;
+    justify-content: space-between;
   }
   .navbar-expand-sm .navbar-nav {
     flex-direction: row;
@@ -4245,7 +4245,7 @@ textarea.form-control-lg {
 @media (min-width: 992px) {
   .navbar-expand-lg {
     flex-wrap: nowrap;
-    justify-content: flex-start;
+    justify-content: space-between;
   }
   .navbar-expand-lg .navbar-nav {
     flex-direction: row;
@@ -4298,7 +4298,7 @@ textarea.form-control-lg {
 @media (min-width: 1200px) {
   .navbar-expand-xl {
     flex-wrap: nowrap;
-    justify-content: flex-start;
+    justify-content: space-between;
   }
   .navbar-expand-xl .navbar-nav {
     flex-direction: row;
@@ -4351,7 +4351,7 @@ textarea.form-control-lg {
 @media (min-width: 1400px) {
   .navbar-expand-xxl {
     flex-wrap: nowrap;
-    justify-content: flex-start;
+    justify-content: space-between;
   }
   .navbar-expand-xxl .navbar-nav {
     flex-direction: row;
@@ -4403,7 +4403,7 @@ textarea.form-control-lg {
 }
 .navbar-expand {
   flex-wrap: nowrap;
-  justify-content: flex-start;
+  justify-content: space-between;
 }
 .navbar-expand .navbar-nav {
   flex-direction: row;

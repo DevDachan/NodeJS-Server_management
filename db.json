@@ -1,0 +1,8 @@
+{
+	"info": {
+		"host": "localhost",
+		"user": "root",
+        	"password": "ekcks123",
+        	"db": "servermon"
+	}
+}
