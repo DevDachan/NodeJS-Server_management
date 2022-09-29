@@ -109,14 +109,16 @@ Key value는 Random하게 생성이되고 모두 고유한 값을 가지게 된�
 [Client Data Insert to DB]
 - Web Server측에 각각의 Client Data들을 Insert하기 위해서 서버에서는 특정 Port를 사용해서 Data를 전송받도록 실행을 시켜 놓아야 한다. 이때 Data를 받기 위해서 Python web framework인 Flask를 사용했다. 
 
+<img width="700" alt="KakaoTalk_20220929_201613304_02" src="https://user-images.githubusercontent.com/111109411/193045240-45ff0f25-bf10-47cc-a525-d4ebfe822307.png">
 
 
-
+- 보이는 것과 같이 Server측에서 실행되는 Python Script의 경우에는 특정 Port로 들어온 Request (Client의 History)를 받고 해당 Data를 Parsing해서 DB에 저장시키는 역할을 한다.
 
 
 ## 2. Client
 1) Python script
 [ Send Data about Client Server ]
+
 
 
 
