@@ -117,7 +117,7 @@ History
 
 ## 2. Client
 1) Python script
-[Send Data about Client Server]
+[ Send Data about Client Server ]
 
 
 
