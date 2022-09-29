@@ -8,12 +8,12 @@ mysql
 pm2 
 express
 
-###server
-sudo apt-get install npm.
-npm install pm2 -g.
-npm install mysql -S.
-npm install .
-apt-get install mysql-server.
+### server
+sudo apt-get install npm
+npm install pm2 -g
+npm install mysql -S
+npm install 
+apt-get install mysql-server
 
 Sudo apt-get install python3-pip
 Pip install flask
@@ -22,7 +22,7 @@ Pip install pymysql
 Pip install pycryptodomex
 Sudo apt-get powertop
 
-###client
+### client
 apt-get install powertop 
 
 
