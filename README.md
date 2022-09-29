@@ -2,6 +2,28 @@
 
 - 여러개의 Server가 있다고 가정 했을 때 해당 Server들의 상태를 한번에 확인하고 관리할 수 있는 Web Service이다. 
 
+## 실행 방법 및 종료 방법
+
+1. Server Computer
+```shell
+cd Python_data
+
+# 백그라운드 실행
+nohup python3 -u serverCom.py &
+# [1] 21836 => 해당 Process ID를 출력하여 준다.
+
+# 로그 기록 보기
+tail -f nohup.out
+
+# pid 로 백그라운드 실행 멈추기
+sudo kill -9 21836
+```
+
+2. Client Computer 
+```shell
+# 백그라운드 실행
+nohup python3 -u clientCom.py &
+```
 
 
 ## 1. Server
