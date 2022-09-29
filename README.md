@@ -1,6 +1,6 @@
 # Server_management
 
-- 여러개의 Server가 있다고 가정 했을 때 해당 Server들의 상태를 한번에 확인하고 관리할 수 있는 Web Service이다. 
+- 해당 서비스는 여러개의 Server를 한번에 관리 할 수 있게 등록된 서버마다 현재 CPU 사용량, Power 사용량등을 확인 할 수 있게 하고 추후 Wake on LAN 기능을 추가 함으로써 효율적인 서버 관리를 하게 해주는 Web Service이다. 
 
 필요한 패키지
 - npm
