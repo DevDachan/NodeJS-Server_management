@@ -77,7 +77,7 @@ def index():
     return 'Success!'
 
 def run_server():
-    app.run(host='0.0.0.0', port='4000', debug=False)
+    app.run(host='0.0.0.0', port='5000', debug=False)
 
 # datetime 객체는 datetime 모듈에서 파생된 것.
 # datetime.fromisoformat() 은 '2022-10-10 12:12:12'와 같은 시간 표현을
