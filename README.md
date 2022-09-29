@@ -9,11 +9,11 @@ pm2
 express
 
 ###server
-sudo apt-get install npm
-npm install pm2 -g
-npm install mysql -S
-npm install 
-apt-get install mysql-server
+sudo apt-get install npm.
+npm install pm2 -g.
+npm install mysql -S.
+npm install .
+apt-get install mysql-server.
 
 Sudo apt-get install python3-pip
 Pip install flask
