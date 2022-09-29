@@ -36,7 +36,7 @@ class AESCipher:
         cipher = AES.new(self.key, AES.MODE_CBC, iv )
         return unpad(cipher.decrypt( enc[16:] ))
 
-url = "http://servmon.cafe24.com:4000"
+url = "http://servmon.cafe24.com:5000"
 
 # cpu load : cpu에 실행중이거나 대기중인 작업의 개수를 평균으로 보여주는 값
 # workload : 주어진 기간에 시스템에 의해 실행되어야 할 작업의 할당량
@@ -150,7 +150,7 @@ try:
         id = input("Client id 입력 : ")
 
 # request 를 보내서 response 받고
-    response = requests.get('http://servmon.cafe24.com:4000/id', params={'id':id})
+    response = requests.get('http://servmon.cafe24.com:5000/id', params={'id':id})
     check = response.text
 
 
